@@ -1,59 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Student Information</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium - Human Stories and Ideas</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact Us</a>
-    </nav>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">Medium</div>
 
-    <div class="container">
+            <ul class="nav-links">
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#write">Write</a></li>
+                <li><a href="#signin">Sign In</a></li>
+                <li><a href="#start" class="nav-button">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <h1>Student Information</h1>
 
-        <img src="https://picsum.photos/500/250" alt="Student Image">
+    <!-- Hero Section -->
+    <main>
 
-        <h2>Student Data</h2>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Human stories and ideas.</h1>
 
-        <table>
-            <tr>
-                <th>Student Name</th>
-                <th>Student Class</th>
-                <th>Student Grade</th>
-            </tr>
+                <p>
+                    A place to read, write, and discover stories,
+                    ideas, and knowledge from people around the world.
+                </p>
 
-            <tr>
-                <td>Precious</td>
-                <td>SS3</td>
-                <td>A</td>
-            </tr>
+                <a href="#start" class="main-button">Start Reading</a>
+            </div>
+        </section>
 
-            <tr>
-                <td>David</td>
-                <td>SS2</td>
-                <td>B</td>
-            </tr>
 
-            <tr>
-                <td>Sarah</td>
-                <td>SS1</td>
-                <td>A</td>
-            </tr>
+        <!-- Why Medium Section -->
+        <section class="features" id="story">
 
-            <tr>
-                <td>Daniel</td>
-                <td>SS3</td>
-                <td>C</td>
-            </tr>
-        </table>
+            <h2>Why Medium?</h2>
 
-    </div>
+            <p class="section-intro">
+                Discover ideas that can change the way you think,
+                learn from experienced writers, and share your own stories.
+            </p>
+
+            <div class="feature-container">
+
+                <article class="feature-card">
+                    <div class="icon">✍️</div>
+                    <h3>Write Your Story</h3>
+                    <p>
+                        Share your ideas, experiences and knowledge
+                        with readers from around the world.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="icon">📚</div>
+                    <h3>Discover Ideas</h3>
+                    <p>
+                        Explore interesting stories and learn about
+                        different topics from talented writers.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="icon">🌍</div>
+                    <h3>Connect Globally</h3>
+                    <p>
+                        Join a community of readers and writers
+                        sharing knowledge and meaningful ideas.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- Membership Section -->
+        <section class="membership" id="membership">
+
+            <div class="membership-content">
+
+                <h2>Read without limits.</h2>
+
+                <p>
+                    Get access to thoughtful stories, useful knowledge
+                    and fresh perspectives from writers around the world.
+                </p>
+
+                <a href="#start" class="main-button">Get Started</a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Writing Section -->
+        <section class="writing" id="write">
+
+            <div>
+                <h2>Share your ideas.</h2>
+
+                <p>
+                    Everyone has a story to tell. Start writing and
+                    share your knowledge with a global community.
+                </p>
+
+                <a href="#start" class="dark-button">Start Writing</a>
+            </div>
+
+        </section>
+
+
+        <!-- Final Call To Action -->
+        <section class="cta" id="start">
+
+            <h2>Start reading today.</h2>
+
+            <p>
+                Discover stories, ideas and perspectives that matter.
+            </p>
+
+            <a href="#" class="main-button">Get Started</a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">Medium</div>
+
+        <p>© 2026 Medium. All rights reserved.</p>
+
+        <div class="footer-links">
+            <a href="#story">About</a>
+            <a href="#membership">Membership</a>
+            <a href="#write">Write</a>
+        </div>
+
+    </footer>
 
 </body>
 </html>
